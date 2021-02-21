@@ -11,7 +11,7 @@ TEST_URL = 'https://some.url'
 class TestScraper(unittest.TestCase):
     def __init__(self, *args, **kwargs):
         super(TestScraper, self).__init__(*args, **kwargs)
-        self.data_dir = os.path.join("scraping", "tests", "Data")
+        self.data_dir = os.path.join("scraping", "tests", "data")
 
     @staticmethod
     def get_test_requester(file_to_read_text_from):
