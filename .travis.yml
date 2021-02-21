@@ -17,6 +17,7 @@ jobs:
         - pip3 install -U pytest
         - pip3 install codecov
         - pip3 install bs4
+        - pip install lxml
       env: PATH=/c/Python38:/c/Python38/Scripts:$PATH
   # all three OSes agree about 'pip3'
 # 'python' points to Python 2.7 on macOS but points to Python 3.8 on Linux and Windows
